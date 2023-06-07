@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  nav{
+    padding: 0 50px;
+    width: 100%;
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .web-name{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 470px;
+    font-size: 60px;
+    font-family: sans-serif;
+  }
+  
+  h1{
+    font-family: sans-serif;
+  }
+  
+  .web-name a{
+    font-family: sans-serif;
+  }
+  
+  .bottom-nav{
+    position: sticky;
+    background-color: rgb(59, 155, 61);;
+    padding: 10px;
+    height: 70px;
+  }
+  
+  .news-genre li{
+    list-style: none;
+    font-size: 30px;
+    color: #080808;
+    font-family: sans-serif;
+  }
+  
+  .news-genre li a{
+    padding: 25px;
+    padding-left: 58px;
+    color: #080808;
+    font-family: sans-serif;
+  }
+  
+  .news-genre li a:hover{
+    color: white;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #080808;
+  }
+  
+  
+  
+  .dashboard {
+      height: 100%; /* Specify a height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: #080808; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 100px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the dashboard */
+      float: right;
+    }
+    
+    /* The dashboard links */
+    .dashboard a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 35px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .dashboard a:hover {
+      color: #f1f1f1;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .dashboard .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 60px;
+      margin-left: 50px;
+    }
+    
+    /* Style the button that is used to open the dashboard */
+    .openbtn {
+      font-size: 50px;
+      cursor: pointer;
+      background-color: white;
+      color: rgb(4, 4, 4);
+      padding: 10px 15px;
+      border: none;
+    }
+    
+    .openbtn:hover {
+      background-color: #747272;
+    }
+
+.main{
+        margin: 1rem;
+        padding: 2rem 2rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+.child {
+        display: inline-block;
+        padding: 10px 10px;
+        vertical-align: middle;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      
+.child h1{
+        font-size: 60px;
+        padding-bottom: 30px;
+      }
+
+.left-news{
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 420px;
+        width: 400px;
+        box-shadow: #7472729f 7px 7px 5px;
+        padding: 20px;
+      }
+      
+.left-news li{
+        font-size: larger;
+        font-family: "Gill Sans", sans-serif;
+        list-style: none;
+        text-align: left;
+      }
+      
+.left-news li a{
+        font-size: larger;
+        font-family: "Gill Sans", sans-serif;
+      }
+      
+.left-news li a:hover{
+        color: rgb(69, 188, 69);
+      }
+
+.right-container img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: #7472729f 7px 7px 5px;
+}
+
+.right-container p{
+  font-size: 20px;
+  color: #080808;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.right-container p i{
+    font-size: 20px;
+    color: #080808;
+    font-family: sans-serif;
+    text-align: left;
+  }
